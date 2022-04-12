@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul li{list-style-type: none;}
+a{color: #333; text-decoration: none;}
+img{width: 100%;}
+
+/*header*/
+header{
+    width: 100%;
+    height: 102px;
+    background-color: #111;
+    position: fixed;
+    top: 0px;
+    z-index:100;
+}
+.header-wrap{
+    width:1300px;
+    margin: 0 auto;
+}
+.header-up{
+    width: 100%;
+    height: 32px;
+    background: #222;
+}
+.navi-up{
+    float: right;
+}
+.navi-up>li{
+    float: left; 
+    line-height: 32px;
+    color: #fff;
+}
+.navi-up>li>a{
+    color: #fff;
+    padding: 6px;
+}
+.navi-up img{width: 15px;}
+.header-un{
+    width:100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 70px;
+}
+.top-logo{
+    width: 90px;
+    float: left;
+}
+.navi{
+    float: left;
+}
+.navi li{
+    float: left;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.navi a{
+    color: #fff;
+    padding: 10px;
+}
+.shopping{
+    float: right;
+}
+.shopping>form{
+    float: left;
+    position:relative;
+    margin-right: 12px;
+}
+.shopping>form>input{
+    width: 200px;
+    height: 40px;
+}
+.shopping>form>img{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width: 35px;
+}
+.shop_btn{
+    float: right;
+    width: 70px;
+}
+
+/*ad*/
+.ad{
+    width: 100%;
+    background: #ececec;
+    height: 56px;
+    text-align: center;
+    position: fixed;
+    top: 102px;
+    z-index: 100;
+}
+.ad>p{padding-top: 6px;}
+.ad>span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.ad-btn{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 35px;
+}
+
+/*fixed-blank*/
+.header-fix{width: 100%; height: 102px;}
+.ad-fix{width: 100%; height: 56px;}
+
+/*clearfix, section*/
+.clearfix:before, .clearfix:after {
+    display:block; 
+    content: ''; 
+    line-height: 0;
+}
+.clearfix:after {clear: both;}
+section{
+    margin: 0 auto;
+    margin-bottom: 70px;
+    width: 100%;
+    max-width: 1300px;
+}
+/*메인 슬라이더*/
+.slider{
+    max-width: none;
+}
+
+/*신상품 슬라이더*/
+section>h2{
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.index_goods{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.inin{
+    width: 19.5%;
+    float: left;
+    margin-right: 0.5%;
+}
+
+/*magazine*/
+.magazine-up>img{
+    float: left;
+    width: 49.5%;
+}
+.magazine-un>img{
+    float: left;
+    width: 24%;
+}
+
+/*sns*/
+.index_sns{
+}
+.index_sns>img{
+    width: 19.5%;
+    margin-right: 6px;
+    float: left;
+}
+
+
+/*푸터영역*/
+footer{
+    width: 100%;
+    background: #ececec;
+    
+}
+.footer-bar{
+    width: 100%;
+    background: #111;
+}
+.footer-wrap{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.lang{
+    width: 200px;
+    float: left;
+}
+.lang>img{float: left; width: 35px;}
+.lang>span{float: left;}
+.footer-bar-txt{
+    float: left;
+}
+.footer-bar-txt>li{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
